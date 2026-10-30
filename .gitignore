@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Reference copy kept for local comparison; not part of this package
+chrome-agent-mcp-light/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
